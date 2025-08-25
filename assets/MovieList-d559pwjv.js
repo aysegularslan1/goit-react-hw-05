@@ -1,0 +1,1 @@
+import{a as e,j as i,L as a}from"./index-CFUdsi_Y.js";const o="_list_15bin_1",c="_item_15bin_6",m="_link_15bin_10",t={list:o,item:c,link:m};function _({movies:n}){const l=e();return i.jsx("ul",{className:t.list,children:n.map(s=>i.jsx("li",{className:t.item,children:i.jsx(a,{to:`/movies/${s.id}`,state:{from:l},className:t.link,children:s.title||s.name})},s.id))})}export{_ as M};
