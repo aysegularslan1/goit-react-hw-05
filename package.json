@@ -11,21 +11,20 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.7.0",
-    "gh-pages": "^6.3.0",
-    "prettier": "^3.6.2",
-    "vite": "^7.0.4"
-  },
-  "dependencies": {
-    "axios": "^1.11.0",
-    "react-router-dom": "^7.8.2"
-  },
-  "homepage": "https://aysegularslan1.github.io/goit-react-hw-05/"
-  {
+  "homepage": "https://aysegularslan1.github.io/goit-react-hw-05/",
   "engines": {
     "node": "20.x"
+  },
+  "dependencies": {
+    "axios": "^1.7.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.6"
   }
-
-}
 }
